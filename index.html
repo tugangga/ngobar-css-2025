@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="w-full fixed z-100 backdrop-blur">
+        <div class="container max-w-full lg:px-46">
+            <div class="px-8 py-3 flex w-full justify-between items-center relative">
+                <h2 class="text-2xl font-semibold ">LoGo</h2>
+                <button type="button" class="text-2xl cursor-pointer absolute right-8 z-100 lg:hidden" id="btn-ham"><i
+                        class="bi bi-list" id="line-ham"></i></button>
+                <nav id="nav-menu"
+                    class="hidden bg-white px-6 py-4 max-w-[250px] w-full rounded-lg shadow-lg/10 absolute right-8 top-full lg:block lg:max-w-full lg:static lg:rounded-none lg:shadow-none lg:bg-transparent">
+                    <ul class="block lg:flex  lg:justify-end ">
+                        <li class="group pb-3 px-4 ">
+                            <a href="#home" class="text-base group-hover:text-main">Home</a>
+                        </li>
+                        <li class="group pb-3 px-4">
+                            <a href="#about" class="text-base group-hover:text-main">About</a>
+                        </li>
+                        <li class="group pb-3 px-4">
+                            <a href="#services" class="text-base group-hover:text-main">Services</a>
+                        </li>
+                        <li class="group pb-3 px-4">
+                            <a href="#project" class="text-base group-hover:text-main">Project</a>
+                        </li>
+                        <li class="group pb-3 px-4">
+                            <a href="#contact" class="text-base group-hover:text-main">Contact</a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home start -->
+    <section id="home" class="py-30">
+        <div class="container max-w-full lg:px-46">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-8 lg:w-1/2">
+                    <p class="font-custom text-4xl lg:text-4xl">Hello Guys!</p>
+                    <h1 class="text-6xl font-bold text-main mb-5 lg:text-5xl ">I'm Gangga</h1>
+                    <p class="mb-4 text-base lg:mb-10">Programmer & Lecturer of <span class="font-bold"> Alfa Prima
+                            Campus</span></p>
+
+                    <div class="flex flex-wrap ">
+                        <div class="w-full mb-3 lg:w-1/2 lg:pr-2">
+                            <a href="#"
+                                class="border border-main py-2 rounded-full block text-center mb-2  shadow-sm hover:bg-main hover:text-white">See
+                                My
+                                Project</a>
+                        </div>
+                        <div class="w-full lg:w-1/2 lg:pl-2">
+                            <a href="#"
+                                class="border border-main py-2 rounded-full block text-center mb-2 shadow-sm hover:bg-main hover:text-white ">Download
+                                My CV</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-full self-end px-8 lg:w-1/2  ">
+                    <div class="mt-10 relative">
+                        <div class="justify-items-center ">
+                            <!-- <img src="dist/img/me.png"
+                                class="border-4 border-main bg-blue-500 rounded-full p-4   shadow-sm "> -->
+                            <img src="dist/img/me.png" class=" ">
+                            <!-- <div class="w-96 h-96 bg-main rounded-full absolute top-0 -z-10"></div> -->
+
+                            <!-- https://www.blobmaker.app/ -->
+                            <span class="absolute -top-15 -z-10">
+                                <!-- <svg width="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#005ACF"
+                                        d="M38.2,-53.7C48.5,-45,55.5,-32.6,63.4,-18.2C71.3,-3.9,80.2,12.6,76,24.4C71.8,36.3,54.4,43.7,39.6,55.5C24.7,67.3,12.4,83.5,-3,87.6C-18.3,91.7,-36.6,83.6,-51.9,72C-67.3,60.3,-79.6,45.1,-84.9,27.8C-90.2,10.6,-88.4,-8.8,-79.5,-22.6C-70.5,-36.4,-54.5,-44.7,-40.1,-52.1C-25.7,-59.6,-12.8,-66.3,0.5,-67C13.9,-67.7,27.8,-62.5,38.2,-53.7Z"
+                                        transform="translate(100 100)" />
+                                </svg> -->
+
+                                <svg width="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#005ACF"
+                                        d="M38,-65.3C50.9,-58.4,64.1,-51.5,73.5,-40.6C83,-29.8,88.7,-14.9,85.1,-2C81.6,10.8,68.9,21.6,59.7,32.9C50.5,44.2,44.8,56,35.5,61.9C26.1,67.8,13.1,67.7,0.9,66.2C-11.3,64.8,-22.7,61.8,-35.4,57.9C-48.1,54,-62.2,49,-67.9,39.2C-73.7,29.4,-71,14.7,-69.4,0.9C-67.8,-12.8,-67.3,-25.7,-61.4,-35.2C-55.5,-44.8,-44.3,-51.1,-33.2,-59C-22.1,-67,-11,-76.7,0.8,-78C12.6,-79.3,25.1,-72.3,38,-65.3Z"
+                                        transform="translate(100 100)" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home end -->
+
+    <!-- About Start -->
+    <section id="about" class="bg-bgsecond py-26">
+        <div class="container max-w-full lg:px-46">
+            <h4 class="text-2xl text-main font-bold px-8 pb-3">About Me</h4>
+            <div class="flex flex-wrap lg:gap-36 lg:flex-nowrap">
+                <div class="w-full px-8 pb-10 lg:w-1/2">
+                    <h2 class="text-2xl font-bold pb-3">Ringkasan Singkat</h2>
+                    <p class="text-base mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                        doloribus,
+                        dignissimos ex error cum optio voluptas pariatur in deleniti praesentium atque nemo. Sint,
+                        voluptatum. Cumque impedit facere labore dolorum minus!</p>
+                    <a href="#"
+                        class="border border-main py-2 rounded-full px-12 text-center text-white mb-2 bg-main shadow-sm hover:bg-white hover:text-main">Download
+                        My CV</a>
+                </div>
+
+                <div class="w-full px-8 pb-10 lg:w-1/2">
+                    <h2 class="text-2xl font-bold pb-3">Let's Be Friends</h2>
+                    <p class="text-base mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+                        molestiae?</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="border border-black px-2 py-1 rounded-full hover:bg-black hover:text-white">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="border border-black px-2 py-1 rounded-full hover:bg-black hover:text-white">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="#" class="border border-black px-2 py-1 rounded-full hover:bg-black hover:text-white">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="#" class="border border-black px-2 py-1 rounded-full hover:bg-black hover:text-white">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="border border-black px-2 py-1 rounded-full hover:bg-black hover:text-white">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skill -->
+        <div class="container max-w-full lg:px-46">
+            <div class="w-full px-8 pb-8">
+                <h2 class="text-2xl font-bold pb-1 lg:text-center">Skills & Experiences</h2>
+                <p class="text-sm lg:text-center">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="flex flex-wrap lg:gap-36 lg:flex-nowrap">
+                <div class="w-full px-8 pb-6 lg:w-1/2">
+                    <h2 class="text-2xl font-bold pb-3 text-main">Experiences</h2>
+                    <h4 class="text-xl font-bold pb-0.5 ">Data Entry</h4>
+                    <p class="text-base mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quibusdam
+                        ipsa modi laudantium iure minima.</p>
+                    <h4 class="text-xl font-bold pb-0.5 ">Content Creator</h4>
+                    <p class="text-base mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quibusdam
+                        ipsa modi laudantium iure minima.</p>
+
+                </div>
+
+                <div class="w-full px-8 pb-10 lg:w-1/2">
+                    <h2 class="text-2xl font-bold pb-3 text-main">Skills</h2>
+                    <p class="text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum
+                        reprehenderit cupiditate minima nulla voluptatibus?</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="grid grid-cols-2">
+                            <i class="bi bi-code-slash text-6xl text-center"></i>
+                            <div class="self-center text-base/4">Web Design & Programing</div>
+                        </div>
+                        <div class="grid grid-cols-2">
+                            <i class="bi bi-braces-asterisk text-6xl text-center"></i>
+                            <div class="self-center text-base/4">Desktop Programing</div>
+                        </div>
+                        <div class="grid grid-cols-2">
+                            <i class="bi bi-clipboard-data text-6xl text-center"></i>
+                            <div class="self-center text-base/4">Data Analyst </div>
+                        </div>
+                        <div class="grid grid-cols-2">
+                            <i class="bi bi-database-add text-6xl text-center"></i>
+                            <div class="self-center text-base/4">Data Engineer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full px-8 pb-10">
+                <h2 class="text-2xl font-bold pb-4 text-main">Tools I Use</h2>
+                <div class="w-full grid grid-cols-2 gap-22 lg:grid-cols-4 2xl:gap-36">
+                    <div class="border-2 border-gray-300 rounded-2xl shadow-xl/20 bg-white p-6 ">
+                        <div class="flex justify-center max-w-full pb-2 ">
+                            <img src="dist/img/html5-nobg.png" class="pb-0.5 aspect-4/3 object-contain">
+                        </div>
+                        <div class="text-center font-bold">HTML</div>
+                    </div>
+                    <div class="border-2 border-gray-300 rounded-2xl shadow-xl/20 bg-white p-6 ">
+                        <div class="flex justify-center max-w-full pb-2 ">
+                            <img src="dist/img/css3.png" class="pb-0.5 aspect-4/3 object-contain">
+                        </div>
+                        <div class="text-center font-bold">CSS</div>
+                    </div>
+                    <div class="border-2 border-gray-300 rounded-2xl shadow-xl/20 bg-white p-6 ">
+                        <div class="flex justify-center max-w-full pb-2 ">
+                            <img src="dist/img/javascript.png" class="pb-0.5 aspect-4/3 object-contain">
+                        </div>
+                        <div class="text-center font-bold">Javascript</div>
+                    </div>
+                    <div class="border-2 border-gray-300 rounded-2xl shadow-xl/20 bg-white p-6 ">
+                        <div class="flex justify-center max-w-full pb-2 ">
+                            <img src="dist/img/react-js-nobg.png" class="pb-0.5 aspect-4/3 object-contain">
+                        </div>
+                        <div class="text-center font-bold">React</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <section id="services" class=" py-26">
+        <div class="container max-w-full px-8 lg:px-46">
+            <h4 class="text-2xl font-bold text-main pb-6">Services</h4>
+            <p class="text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel commodi nostrum,
+                magnam hic pariatur.</p>
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="bg-main border border-gray-400 rounded-lg shadow-lg/10 overflow-hidden p-4 lg:rounded-2xl">
+                    <div class="flex justify-center">
+                        <img src="dist/img/pc.png" class="inline-block">
+                    </div>
+                    <div class=" text-white">
+                        <div class="p-4 text-center">
+                            <h2 class="text-lg font-semibold mb-4">Lorem ipsum dolor sit.</h2>
+                            <p class="text-base/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+                                quis
+                                atque consequatur iusto consequuntur quasi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-main border border-gray-400 rounded-lg shadow-lg/10 overflow-hidden p-4 lg:rounded-2xl">
+                    <div class="flex justify-center">
+                        <img src="dist/img/pc.png" class="inline-block">
+                    </div>
+                    <div class=" text-white">
+                        <div class="p-4 text-center">
+                            <h2 class="text-lg font-semibold mb-4">Lorem ipsum dolor sit.</h2>
+                            <p class="text-base/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+                                quis
+                                atque consequatur iusto consequuntur quasi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-main border border-gray-400 rounded-lg shadow-lg/10 overflow-hidden p-4 lg:rounded-2xl">
+                    <div class="flex justify-center">
+                        <img src="dist/img/pc.png" class="inline-block">
+                    </div>
+                    <div class=" text-white">
+                        <div class="p-4 text-center">
+                            <h2 class="text-lg font-semibold mb-4">Lorem ipsum dolor sit.</h2>
+                            <p class="text-base/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+                                quis
+                                atque consequatur iusto consequuntur quasi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Project Start -->
+    <section id="project" class="bg-bgsecond py-26">
+        <div class="container max-w-full px-8 lg:px-46">
+            <h4 class="text-2xl font-bold text-main pb-6">My Project</h4>
+            <div class="grid lg:grid-cols-2 gap-6">
+                <div class="bg-main border border-gray-400 rounded-lg shadow-lg/10 overflow-hidden lg:rounded-2xl">
+                    <img src="dist/img/project01.png">
+                    <div class=" text-white">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold mb-4">Lorem ipsum dolor sit.</h2>
+                            <p class="text-base/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+                                quis
+                                atque consequatur iusto consequuntur quasi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-main border border-gray-400 rounded-lg shadow-lg/10 overflow-hidden lg:rounded-2xl">
+                    <img src="dist/img/project02.png">
+                    <div class=" text-white">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold mb-4">Lorem ipsum dolor sit.</h2>
+                            <p class="text-base/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+                                quis
+                                atque consequatur iusto consequuntur quasi!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Project End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="py-30">
+        <div class="container max-w-full px-8 md:px-46 ">
+            <div class="max-w-full pb-4">
+                <h2 class="text-2xl text-main font-semibold mb-6 ">Contact</h2>
+                <p class="text-base max-w-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae, itaque?
+                </p>
+            </div>
+
+            <div class="grid gap-4 lg:grid-cols-2 ">
+                <div class="">
+                    <form action="#" method="POST" class="mx-auto mt-16 max-w-full sm:mt-20">
+                        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                            <div>
+                                <label for="first-name" class="block text-sm/6 font-semibold text-gray-900">First
+                                    name</label>
+                                <div class="mt-2.5">
+                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                        class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="last-name" class="block text-sm/6 font-semibold text-gray-900">Last
+                                    name</label>
+                                <div class="mt-2.5">
+                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                                        class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm/6 font-semibold text-gray-900">Phone
+                                    Number</label>
+                                <div class="mt-2.5">
+                                    <input type="text" name="phone" id="phone" autocomplete="organization"
+                                        class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm/6 font-semibold text-gray-900">Email</label>
+                                <div class="mt-2.5">
+                                    <input type="email" name="email" id="email" autocomplete="email"
+                                        class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                </div>
+                            </div>
+                            <div class="sm:col-span-2">
+                                <label for="message" class="block text-sm/6 font-semibold text-gray-900">Message</label>
+                                <div class="mt-2.5">
+                                    <textarea name="message" id="message" rows="4"
+                                        class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+                            <button type="submit"
+                                class="block w-full rounded-md bg-main px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- google map -->
+                <div class="max-w-full max-h-dvh overflow-hidden border border-black bg-stone-400">
+                    <iframe class="w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.344074114138!2d115.23645337592828!3d-8.658789488104858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24062d4012285%3A0xe6f92de1119768d4!2sKampus%20Alfa%20Prima!5e0!3m2!1sid!2sid!4v1744089945820!5m2!1sid!2sid"
+                        width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <footer class="bg-main py-30">
+        <div class="container max-w-full px-8 lg:px-46">
+            <h2 class="text-4xl text-white font-semibold mb-6">LoGo</h2>
+            <div class="flex flex-wrap text-stone-300 pb-12">
+                <div class="w-full mb-6 md:w-1/3">
+                    <h4 class="text-xl font-semibold text-white mb-1">Hubungi Kami</h4>
+                    <p class=""><i class="bi bi-envelope inline-block pr-2"></i> info@alfaprima.id</p>
+                    <p class=""><i class="bi bi-telephone inline-block pr-2"></i> 0361232422</p>
+                    <p class=""><i class="bi bi-pin-map inline-block pr-2"></i> Denpasar, Bali</p>
+                </div>
+                <div class="w-full mb-6 md:w-1/3">
+
+                    <h4 class="text-xl font-semibold text-white mb-1">Kategori</h4>
+                    <p class="">Design</p>
+                    <p class="">Animasi</p>
+                    <p class="">Teknologi Informasi</p>
+                </div>
+                <div class="w-full  md:w-1/3 ">
+                    <h4 class="text-xl font-semibold text-white mb-1">Tautan</h4>
+                    <a href="#home" class="block hover:underline">Home</a>
+                    <a href="#about" class="block hover:underline">About</a>
+                    <a href="#services" class="block hover:underline">Services</a>
+                    <a href="#project" class="block hover:underline">Project</a>
+                    <a href="#contact" class="block hover:underline">Contact</a>
+                </div>
+            </div>
+
+            <div class="pt-6 text-center border-t border-slate-400">
+                <p class="text-base text-stone-300">Copyright &copy; All rights reserved | Made by Gangga</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
