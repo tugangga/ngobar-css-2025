@@ -1,5 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* bootstrap icon */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
@@ -7,16 +9,16 @@
 @import "tailwindcss";
 
 @theme {
-  --font-custom: "Allura", "cursive";
+  --font-custom: "Roboto", sans-serif;
   --color-main: #005acf;
   --color-second: #1c1c1c;
   --color-third: #004db2;
   --color-bgsecond: #f1f1f1;
 }
-/* 
+
 body {
-  font-family: "Allura", "cursive";
-} */
+  font-family: "Inter", sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
